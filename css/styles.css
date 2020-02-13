@@ -56,6 +56,10 @@ h1.text-center {
   font-size: 1.15em;
 }
 
+.form-control {
+  background-color: #f8f8f8;
+}
+
 @media screen and (min-width: 768px) {
   .main-logo {
     width: 50%;
