@@ -4,6 +4,11 @@ body {
   background-attachment: fixed;
   background-position: bottom;
   background-size: contain;
+  position: relative;
+}
+
+.section {
+  margin-top: 5em;
 }
 
 nav {
@@ -27,7 +32,7 @@ nav .nav-item.active .nav-link {
   display: block;
   margin: 0 auto;
   width: 90%;
-  padding-top: 30%;
+  padding-top: 20%;
 }
 
 .fab {
@@ -43,7 +48,7 @@ nav .nav-item.active .nav-link {
 }
 
 h1.text-center {
-  margin-top: 1em;
+  margin-top: 2em;
   margin-bottom: 2em;
 }
 
@@ -60,16 +65,20 @@ h1.text-center {
   background-color: #f8f8f8;
 }
 
+#container-contactanos {
+  margin-bottom: 25%;
+}
+
 @media screen and (min-width: 768px) {
   .main-logo {
     width: 50%;
-    padding-top: 20%;
+    padding-top: 10%;
   }
 }
 
 @media screen and (min-width: 992px) {
   .main-logo {
     width: 40%;
-    padding-top: 20%;
+    padding-top: 5%;
   }
 }

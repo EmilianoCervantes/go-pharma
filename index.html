@@ -24,17 +24,68 @@
               <a class="nav-link" href="#">| &emsp;&emsp; Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./nosotros.html">| &emsp;&emsp; Nosotros</a>
+              <a class="nav-link" href="#nosotros">| &emsp;&emsp; Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contactanos.html">| &emsp;&emsp; Contacto</a>
+              <a class="nav-link" href="#contactanos">| &emsp;&emsp; Contacto</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
     <div class="container">
-      <img class="main-logo" src="./img/logo-100.jpg" alt="logo">
+      <div class="row">
+        <div class="col">
+          <img class="main-logo" src="./img/logo-100.jpg" alt="logo">
+        </div>
+      </div>
+
+      <div id="nosotros" class="row section">
+        <div class="col">
+          <h1 class="text-center">Nosotros</h1>
+          <div class="container-">
+            <p class="text-justify">
+              Somos un aliado estratégico con experiencia en sector salud y mercado farmaceútico.
+            </p>
+            <p class="text-justify">
+              Creamos, desarrollamos e implementamos estrategias integrales brindando una solución personalizada.
+            </p>
+            <p class="text-justify">
+              Nuestro portafolio de servicios incluye desde investigación de mercado hasta la implementación del proyecto, alineados a los objetivos y necesitades de nuestros clientes.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h1 id="contactanos" class="text-center">Contáctanos</h1>
+        <div id="container-contactanos">
+          <div class="row">
+            <div class="col-6 col-md-4">
+              <h4 class="text-justify">GO PHARMA MEX</h4>
+              <p class="text-justify">CDMX</p>
+              <p class="text-justify">info@go-pharma.mx</p>
+              <p class="text-justify">+52 55 1151 8891</p>
+            </div>
+            <div class="col-6 col-md-8">
+              <form class="needs-validation" action="index.html" method="post">
+                <div class="row">
+                  <div class="col-6">
+                    <input class="form-control" type="text" name="nombre" value="" placeholder="Nombre">
+                    <br>
+                    <input class="form-control" type="text" name="telefono" value="" placeholder="Teléfono">
+                    <br>
+                    <input class="form-control" type="text" name="email" value="" placeholder="E-mail">
+                  </div>
+                  <div class="col-6">
+                    <textarea class="form-control" name="name" rows="6" cols="80" placeholder="Mensaje"></textarea>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <footer class="footer mt-auto">
       <!-- <h1>Hola</h1> -->
